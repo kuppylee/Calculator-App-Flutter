@@ -136,6 +136,10 @@ class _CalculatorState extends State<Calculator> {
           ],
         ),
       ),
+      bottomNavigationBar: BottomAppBar(
+        child: SizedBox(height: 10),
+        color: Colors.black,
+      ),
     );
   }
   // logic of the calculator
